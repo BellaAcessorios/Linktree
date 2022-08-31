@@ -14,10 +14,10 @@ body {
 }
 
 .photo {
-    border: 2px solid #26c6da;
+    border: 0.125rem solid #26c6da;
     border-radius:100%;
-    max-width:150px;
-    max-height:150px;
+    max-width:30rem;
+    max-height:30rem;
     width: auto;
     height: auto;
     display: block;
@@ -28,25 +28,31 @@ body {
 
 #title, .subtitle, .post_title {
     color: #282828;
-    margin-bottom: 15px;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
 #title {
-    font-size: 20px;
+    margin-top: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
 }
 
+.subtitle {
+    font-size: 2.3rem;
+}
+
 .post_title {
-    font-size: 16px;
+    font-size: 2.7rem;
     font-style: italic;
-    margin-bottom: 15px;
+    margin-bottom: 1.2rem;
     text-align: center;
 }
 
+
 .redes {
-    max-width:100px;
-    max-height:150px;
+    max-width:6.25rem;
+    max-height:9.375rem;
     width: auto;
     height: auto;
     text-align: center;
@@ -54,10 +60,10 @@ body {
 
 .post {
     background: #ccc;
-    padding: 10px;
-    border: 30px solid #000;
-    margin: 10px;
-    margin-bottom: 15px;
+    padding: 0.625rem;
+    border: 1.875rem solid #000;
+    margin: 0.625rem;
+    margin-bottom: 0.938rem;
     text-align: center;
 }
 
@@ -70,16 +76,16 @@ body {
 
 
 .instagram, .whatsapp, .catalogo {
-    width: 200px;
-    height: 40px;
-    font-size: 14px;
+    width: 35rem;
+    height: 7rem;
+    font-size: 2.7rem;
     font-family: "roboto";
     font-weight:500;
     background-color: rgba 999, rgba(255, 255, 255, 0,2);
     color: #26c6da;
-    margin: 10px;
-    border: 2px solid #26c6da ;
-    border-radius: 20px;
+    margin: 0.9rem;
+    border: 0.125rem solid #26c6da ;
+    border-radius: 1.5rem;
 }
 
 a {
