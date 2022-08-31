@@ -97,4 +97,5 @@ a {
 
 a:hover{
     color: #282828;
+    text-transform: uppercase;
 }
